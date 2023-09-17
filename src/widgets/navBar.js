@@ -22,7 +22,7 @@ const NavBar = ({ putNavToTop }) => {
                     <a href="/">Resources</a>
                 </li>
                 <li>
-                    <a href="/">Sign up</a>
+                    <a href="/login">Sign up</a>
                 </li>
             </ul>
             <button className="block md:hidden">
