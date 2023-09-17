@@ -38,7 +38,7 @@ const SignUp = () => {
                                     </a>
                                 </p>
                             </div>
-                            <div className="flex flex-col md:flex-col justify-between items-center gap-4">
+                            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                                 <h1 className="text-2xl md:text-5xl font-bold">
                                     Sign Up
                                 </h1>
