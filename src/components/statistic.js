@@ -30,27 +30,27 @@ const Statistic = () => {
                                     200+
                                 </h1>
                                 <p className="text-xs sm:text-sm">
-                                    Expertise agricoles
+                                    Kit déployer
                                 </p>
                             </div>
                         </div>
                         <div className="w-full md:w-auto flex justify-center">
                             <div className="w-40 md:w-48 px-6 py-4 bg-white rounded-md flex flex-col text-center shadow-lg">
                                 <h1 className="text-lg sm:text-2xl font-bold">
-                                    200+
+                                    10+
                                 </h1>
                                 <p className="text-xs sm:text-sm">
-                                    Expertise agricoles
+                                    Cultures supportées
                                 </p>
                             </div>
                         </div>
                         <div className="w-full md:w-auto flex justify-center">
                             <div className="w-40 md:w-48 px-6 py-4 bg-white rounded-md flex flex-col text-center shadow-lg">
                                 <h1 className="text-lg sm:text-2xl font-bold">
-                                    200+
+                                    20+
                                 </h1>
                                 <p className="text-xs sm:text-sm">
-                                    Expertise agricoles
+                                    Employés dans le monde
                                 </p>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Statistic = () => {
                                 className="w-full h-64 object-cover"
                                 alt="stat_img"
                             />
-                            <p className="font-semibold">Augmentation de la productivité</p>
+                            <p className="font-semibold">Réduction des intrants agricoles</p>
                         </div>
                         <div className="flex flex-col items-center w-[60rem] bg-white p-6 rounded-md gap-4 shadow-md">
                             <img
@@ -84,7 +84,7 @@ const Statistic = () => {
                                 className="w-full h-64 object-cover"
                                 alt="stat_img"
                             />
-                            <p className="font-semibold">Augmentation de la productivité</p>
+                            <p className="font-semibold">Améliorations de la durabilité environnementale</p>
                         </div>
                         
                     </div>

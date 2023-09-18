@@ -14,10 +14,8 @@ const InfosPart = () => {
                         </h1>
                         <p>
                             {" "}
-                            Informer et éduquer sur l'importance de
-                            l'agriculture de précision et durable, ainsi que ses
-                            avantages pour l'environnement et la productivité
-                            agricole.
+                            Informer et éduquer sur l'importance de l'agriculture de précision et durable, 
+                            ainsi que ses avantages pour l'environnement et la productivité agricole.
                         </p>
                     </div>
                     {/* Image */}
@@ -35,14 +33,9 @@ const InfosPart = () => {
                         </h1>
                         <p>
                             {" "}
-                            Informer et éduquer sur l'importance de
-                            l'agriculture de précision et durable, ainsi que ses
-                            avantages pour l'environnement et la productivité
-                            agricole.Établir des collaborations avec des
-                            entreprises et des organismes travaillant dans le
-                            domaine de l'agriculture de précision pour renforcer
-                            la crédibilité de la solution et promouvoir le
-                            partage des connaissances.
+                            Établir des collaborations avec des entreprises et des organismes travaillant 
+                            dans le domaine de l'agriculture de précision pour renforcer la crédibilité de 
+                            la solution et promouvoir le partage des connaissances.
                         </p>
                     </div>
                 </div>

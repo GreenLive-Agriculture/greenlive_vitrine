@@ -17,23 +17,19 @@ const Solution = () => {
                             <FaNetworkWired size={60} className="-rotate-90" />
                         }
                         title="Suivie de vos cultures"
-                        description="Surveillance en temps réel avec capteurs, satellites et drones
+                        description="Surveillance en temps réel avec capteurs,robot,satellites et drones
                 pour optimiser l'utilisation des intrants agricoles et réduire
                 l'impact environnemental."
                     />
                     <BaseSolution
                         icon={<TbTargetArrow size={60} />}
-                        title="Suivie de vos cultures"
-                        description="Surveillance en temps réel avec capteurs, satellites et drones
-                pour optimiser l'utilisation des intrants agricoles et réduire
-                l'impact environnemental."
+                        title="Gestion des ressources"
+                        description="Technologies et pratiques agricoles pour une utilisation plus efficiente des ressources naturelles (eau, engrais, pesticide)."
                     />
                     <BaseSolution
                         icon={<GiCornerFlag size={60} />}
-                        title="Suivie de vos cultures"
-                        description="Surveillance en temps réel avec capteurs, satellites et drones
-                pour optimiser l'utilisation des intrants agricoles et réduire
-                l'impact environnemental."
+                        title="Proposition de solution durables"
+                        description="Promouvoir l'agriculture durable, sensibiliser les producteurs pour des produits respectueux de l'environnement et de la santé."
                     />
                 </div>
             </div>
