@@ -14,7 +14,7 @@ const Solution = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 justify-between items-center gap-6">
                     <BaseSolution
                         icon={
-                            <FaNetworkWired size={60} className="-rotate-90" />
+                            <FaNetworkWired size={70} className="-rotate-90" />
                         }
                         title="Suivie de vos cultures"
                         description="Surveillance en temps réel avec capteurs,robot,satellites et drones
@@ -22,12 +22,12 @@ const Solution = () => {
                 l'impact environnemental."
                     />
                     <BaseSolution
-                        icon={<TbTargetArrow size={60} />}
+                        icon={<TbTargetArrow size={70} />}
                         title="Gestion des ressources"
                         description="Technologies et pratiques agricoles pour une utilisation plus efficiente des ressources naturelles (eau, engrais, pesticide)."
                     />
                     <BaseSolution
-                        icon={<GiCornerFlag size={60} />}
+                        icon={<GiCornerFlag size={70} />}
                         title="Proposition de solution durables"
                         description="Promouvoir l'agriculture durable, sensibiliser les producteurs pour des produits respectueux de l'environnement et de la santé."
                     />
