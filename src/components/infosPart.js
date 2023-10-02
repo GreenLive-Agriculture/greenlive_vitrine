@@ -4,65 +4,45 @@ import Article from "./article";
 const InfosPart = () => {
     return (
         <div className="flex p-6 w-full justify-center font-WorkSans py-10">
-            <div className="flex w-full lg:w-10/12 flex-row gap-4 overflow-x-auto">
+            <div className="flex flex-col w-full lg:w-10/12 gap-2 lg:gap-6">
             <Article
                 name={
-                    "Optimiser l'utilisation des intrants"
+                    "Collecter et analyser vos données agricoles grâce à nos kits"
                 }
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
                 }
-                price={"50 000"}
+                price={""}
+                description={"Utiliser nos plateforme d'analyse , de traitement et de visualusation de données agricoles"}
+            />
+            <Article
+                name={
+                    "Utiliser nos plateforme d'analyse , de traitement et de visualusation à temps réel de vos données agricoles"
+                }
+                image={
+                    process.env.PUBLIC_URL + "/assets/image1.png"
+                }
+                price={""}
                 description={"Dispositif de collete de données de sole et d'environnement"}
             />
             <Article
                 name={
-                    "Optimiser l'utilisation des intrants"
+                    "Améliorer la productivité en distribuant de manière précise vos intrants et accroître vos rendements"
                 }
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
                 }
-                price={"50 000"}
+                price={""}
                 description={"Dispositif de collete de données de sole et d'environnement"}
             />
             <Article
                 name={
-                    "Optimiser l'utilisation des intrants"
+                    "Recevoir des recommandations personalisées sur des méthodes agricoles durables "
                 }
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
                 }
-                price={"50 000"}
-                description={"Dispositif de collete de données de sole et d'environnement"}
-            />
-            <Article
-                name={
-                    "Optimiser l'utilisation des intrants"
-                }
-                image={
-                    process.env.PUBLIC_URL + "/assets/image1.png"
-                }
-                price={"50 000"}
-                description={"Dispositif de collete de données de sole et d'environnement"}
-            />
-            <Article
-                name={
-                    "Optimiser l'utilisation des intrants"
-                }
-                image={
-                    process.env.PUBLIC_URL + "/assets/image1.png"
-                }
-                price={"50 000"}
-                description={"Dispositif de collete de données de sole et d'environnement"}
-            />
-            <Article
-                name={
-                    "Optimiser l'utilisation des intrants"
-                }
-                image={
-                    process.env.PUBLIC_URL + "/assets/image1.png"
-                }
-                price={"50 000"}
+                price={""}
                 description={"Dispositif de collete de données de sole et d'environnement"}
             />
             </div>
