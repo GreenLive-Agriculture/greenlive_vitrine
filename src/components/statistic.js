@@ -1,4 +1,5 @@
 import React from "react";
+import Objectif from "../widgets/objectif";
 
 const Statistic = () => {
     return (
@@ -55,38 +56,28 @@ const Statistic = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-row w-full lg:w-10/12 gap-4 md:gap-8 lg:gap-12 overflow-y-auto">
-                        <div className="flex flex-col items-center w-[60rem] bg-white p-6 rounded-md gap-4 shadow-md">
-                            <img
-                                src={
+                    <div className="flex flex-row w-full lg:w-10/12 gap-4 md:gap-8 lg:gap-12 overflow-x-auto">
+                        <Objectif
+                                title={
+                                    "Optimiser l'utilisation des intrants"
+                                }
+                                solutionimage={
                                     process.env.PUBLIC_URL + "/assets/image1.png"
+                                }/>
+                        <Objectif
+                                title={
+                                    "Améliorer la productivité"
                                 }
-                                className="w-full h-64 object-cover"
-                                alt="stat_img"
-                            />
-                            <p className="font-semibold">Augmentation de la productivité</p>
-                        </div>
-                        <div className="flex flex-col items-center w-[60rem] bg-white p-6 rounded-md gap-4 shadow-md">
-                            <img
-                                src={
+                                solutionimage={
                                     process.env.PUBLIC_URL + "/assets/image2.png"
+                                }/>
+                        <Objectif
+                                title={
+                                    "Réduire les risques environnementaux"
                                 }
-                                className="w-full h-64 object-cover"
-                                alt="stat_img"
-                            />
-                            <p className="font-semibold">Réduction des intrants agricoles</p>
-                        </div>
-                        <div className="flex flex-col items-center w-[60rem] bg-white p-6 rounded-md gap-4 shadow-md">
-                            <img
-                                src={
+                                solutionimage={
                                     process.env.PUBLIC_URL + "/assets/image3.png"
-                                }
-                                className="w-full h-64 object-cover"
-                                alt="stat_img"
-                            />
-                            <p className="font-semibold">Améliorations de la durabilité environnementale</p>
-                        </div>
-                        
+                                }/>
                     </div>
                 </div>
             </div>

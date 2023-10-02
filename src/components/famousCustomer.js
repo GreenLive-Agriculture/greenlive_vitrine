@@ -16,7 +16,7 @@ const FamousCustomer = () => {
         <div className="flex p-6 justify-center font-WorkSans pt-12">
             <div className="flex flex-col w-full lg:w-10/12 justify-center items-center gap-6">
                 <h1 className="text-4xl text-center font-bold">
-                    Nos partenaires
+                    Ceux qui nous soutiennent
                 </h1>
                 <div className="flex justify-between overflow-x-hidden w-full">
                     <div className="flex w-full justify-between overflow-x-auto [&>div]:flex-shrink-0 gap-8">
@@ -28,7 +28,7 @@ const FamousCustomer = () => {
                                         process.env.PUBLIC_URL +
                                         `/assets/famousCustomers/fc${i+1}.JPEG`
                                     }
-                                    className="h-30 w-90 object-contain"
+                                    className="object-contain"
                                 />
                             );
                         })}

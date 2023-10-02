@@ -6,7 +6,7 @@ const BlogPart = () => {
         <div className="flex p-6 justify-center font-WorkSans pt-12">
             <div className="flex flex-col w-full lg:w-10/12 justify-center items-center gap-4">
                 <h1 className="text-4xl text-center font-bold">
-                    Nos témoignages
+                    Articles
                 </h1>
                 <div className="flex justify-between overflow-x-hidden w-full">
                     <div className="flex w-full overflow-x-auto justify-between [&>div]:flex-shrink-0 gap-4">
