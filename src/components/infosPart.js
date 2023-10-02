@@ -27,7 +27,7 @@ const InfosPart = () => {
             />
             <Article
                 name={
-                    "Améliorer la productivité en distribuant de manière précise vos intrants et accroître vos rendements"
+                    "Améliorer votre productivité en distribuant de manière précise vos intrants tout en réduisant l'impact environnemental"
                 }
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
