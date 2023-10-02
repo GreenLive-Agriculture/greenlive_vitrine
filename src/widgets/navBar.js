@@ -5,7 +5,7 @@ const NavBar = ({ putNavToTop }) => {
     const [showNavigation, setShowNavigation] = useState(false);
 
     return (
-        <div className={`${putNavToTop ? "fixed bg-nav w-full border-b border-black px-10 py-3" : "w-full md:w-11/12 px-6 py-3"} z-50 flex flex-row justify-between items-center text-white`}>
+        <div className={`${putNavToTop ? "fixed bg-nav w-full border-b  px-10 py-3" : "w-full md:w-11/12 px-6 py-3"} z-50 flex flex-row justify-between items-center text-white`}>
             <img
                 src={process.env.PUBLIC_URL + "/assets/logo1.png"}
                 className="w-18 md:w-20 h-16 md:h-20 object-contain"

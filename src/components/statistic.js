@@ -4,7 +4,7 @@ const Statistic = () => {
     return (
         <div className="flex flex-col w-full items-center font-WorkSans py-10 gap-6">
             <div className="flex flex-col w-full lg:w-10/12 text-center text-4xl font-bold p-6">
-                Couverture mondiale et résultats prouvés
+                Objectifs à atteindre
             </div>
             <div className="relative w-full h-[30rem] flex">
                 <img
@@ -55,7 +55,7 @@ const Statistic = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-row w-full lg:w-10/12 gap-4 md:gap-8 lg:gap-12 overflow-x-auto">
+                    <div className="flex flex-row w-full lg:w-10/12 gap-4 md:gap-8 lg:gap-12 overflow-y-auto">
                         <div className="flex flex-col items-center w-[60rem] bg-white p-6 rounded-md gap-4 shadow-md">
                             <img
                                 src={
@@ -69,7 +69,7 @@ const Statistic = () => {
                         <div className="flex flex-col items-center w-[60rem] bg-white p-6 rounded-md gap-4 shadow-md">
                             <img
                                 src={
-                                    process.env.PUBLIC_URL + "/assets/image1.png"
+                                    process.env.PUBLIC_URL + "/assets/image2.png"
                                 }
                                 className="w-full h-64 object-cover"
                                 alt="stat_img"
@@ -79,7 +79,7 @@ const Statistic = () => {
                         <div className="flex flex-col items-center w-[60rem] bg-white p-6 rounded-md gap-4 shadow-md">
                             <img
                                 src={
-                                    process.env.PUBLIC_URL + "/assets/image1.png"
+                                    process.env.PUBLIC_URL + "/assets/image3.png"
                                 }
                                 className="w-full h-64 object-cover"
                                 alt="stat_img"

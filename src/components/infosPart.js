@@ -7,7 +7,7 @@ const InfosPart = () => {
                 {/* First part */}
                 <div className="flex flex-col-reverse md:flex-row gap-12 justify-between items-center py-16">
                     {/* Explanation */}
-                    <div className="flex md:w-1/2 flex-col gap-4">
+                    <div className="flex md:w-1/2 flex-col gap-4 overflow-y-auto">
                         <h1 className="text-4xl font-bold">
                             Aider sur l’importance de l’agriculture de précision
                             et durable
@@ -18,13 +18,16 @@ const InfosPart = () => {
                             ainsi que ses avantages pour l'environnement et la productivité agricole.
                         </p>
                     </div>
-                    {/* Image */}
-                    <div className="w-full md:w-1/2 h-96 bg-gradient-to-b from-primary"></div>
+                    <img className="w-full md:w-1/2 h-full"
+                        src={process.env.PUBLIC_URL +`/assets/famousCustomers/fc1.png`} 
+                        alt="stat_img" />
                 </div>
                 {/* Second part */}
                 <div className="flex flex-col-reverse md:flex-row gap-12 justify-between items-center py-16">
                     {/* Image */}
-                    <div className="w-full md:w-1/2 h-96 bg-gradient-to-b from-primary"></div>
+                    <img className="w-full md:w-1/2 h-full"
+                        src={process.env.PUBLIC_URL +`/assets/famousCustomers/fc1.png`} 
+                        alt="stat_img" />
                     {/* Explanation */}
                     <div className="flex md:w-1/2 flex-col gap-4">
                         <h1 className="text-4xl font-bold">

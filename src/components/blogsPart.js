@@ -21,7 +21,7 @@ const BlogPart = () => {
                         <BlogItem
                             blogImage={
                                 process.env.PUBLIC_URL +
-                                `/assets/blogs/blog1.png`
+                                `/assets/blogs/blog2.png`
                             }
                             blogTitle={"Agriculture de précision dans l'éducation agricole au Cameroun"}
                             blogDescription={" Cet article explore comment le secteur de l'éducation agricole au Cameroun intègre progressivement l'agriculture de précision dans ses programmes de formation."}
@@ -29,7 +29,7 @@ const BlogPart = () => {
                         <BlogItem
                             blogImage={
                                 process.env.PUBLIC_URL +
-                                `/assets/blogs/blog1.png`
+                                `/assets/blogs/blog3.png`
                             }
                             blogTitle={"Des start-ups camerounaises révolutionnent l'agriculture grâce à la technologie de précision"}
                             blogDescription={"Cet article présente certaines des start-ups camerounaises les plus innovantes dans le domaine de l'agriculture de précision."}

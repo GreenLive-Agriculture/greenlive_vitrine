@@ -40,22 +40,20 @@ const Footer = () => {
                 </div>
                 {/* Second part */}
                 <div className="flex flex-col gap-4 w-full md:w-1/4">
-                    <h1 className="text-2xl font-semibold">Resources</h1>
+                    <h1 className="text-2xl font-semibold">Legal</h1>
                     <ul className="flex flex-row md:flex-col gap-4">
-                        <li><a href="/" className="hover:underline underline-offset-4">Features</a></li>
-                        <li><a href="/" className="hover:underline underline-offset-4">Pricing</a></li>
-                        <li><a href="/" className="hover:underline underline-offset-4">Login</a></li>
-                        <li><a href="/" className="hover:underline underline-offset-4">Signup</a></li>
+                        <li><a href="/" className="hover:underline underline-offset-4">Tearms of Use</a></li>
+                        <li><a href="/" className="hover:underline underline-offset-4">Private Policy</a></li>
+                        <li><a href="/" className="hover:underline underline-offset-4">Legal Notice</a></li>
                     </ul>
                 </div>
                 {/* Second part */}
                 <div className="flex flex-col gap-4 w-full md:w-1/4">
-                    <h1 className="text-2xl font-semibold">Resources</h1>
+                    <h1 className="text-2xl font-semibold">Links</h1>
                     <ul className="flex flex-row md:flex-col gap-4">
-                        <li><a href="/" className="hover:underline underline-offset-4">Features</a></li>
-                        <li><a href="/" className="hover:underline underline-offset-4">Pricing</a></li>
-                        <li><a href="/" className="hover:underline underline-offset-4">Login</a></li>
-                        <li><a href="/" className="hover:underline underline-offset-4">Signup</a></li>
+                        <li><a href="/" className="hover:underline underline-offset-4">Feadback</a></li>
+                        <li><a href="/" className="hover:underline underline-offset-4">Private Policy</a></li>
+                        <li><a href="/" className="hover:underline underline-offset-4">Legal Notice</a></li>
                     </ul>
                 </div>
             </div>

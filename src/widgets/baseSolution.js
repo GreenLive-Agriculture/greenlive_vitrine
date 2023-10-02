@@ -2,7 +2,7 @@ import React from "react";
 
 const BaseSolution = ({ icon, title, description }) => {
     return (
-        <div className="flex flex-col gap-4 w-full bg-white rounded-lg px-6 py-10 font-WorkSans shadow-lg">
+        <div className="flex flex-col gap-4 w-full rounded-lg px-6 py-10 font-WorkSans">
             <div className="flex">
                 <div className="p-4 bg-primary text-white">{icon}</div>
             </div>

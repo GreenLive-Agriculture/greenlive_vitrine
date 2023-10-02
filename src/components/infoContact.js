@@ -11,10 +11,10 @@ const InfoContact = () => {
                 />
                 <div className="absolute w-full h-full bg-[#779341] bg-opacity-60"></div>
                 <div className="absolute w-11/12 md:w-6/12 h-full flex flex-col text-center text-white items-center justify-center gap-6">
-                    <h1 className="text-4xl font-bold">Ready to get started? Get your Finance out of the way</h1>
-                    <p> If you deliver enough value, making money becomes the easy part. Why should you be stressful? Let us make this easier for you.</p>
+                    <h1 className="text-4xl font-bold">Prêt à commencer? Allons miser sur l'agriculture de précision avec GreenLive</h1>
+                    <p>Si vous vous mettez de ce pas , avoir des produits de qualité deviendra plus facile.Pourquoi chercher loin ? Laissez notre solution vous aidez dans votre plantation</p>
                     <button className="w-auto px-8 py-3 bg-nav rounded-3xl shadow-lg">
-                        Contact Us
+                        Contactez nous
                     </button>
                 </div>
             </div>
