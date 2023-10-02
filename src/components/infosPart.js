@@ -4,7 +4,7 @@ import Article from "./article";
 const InfosPart = () => {
     return (
         <div className="flex p-6 w-full justify-center font-WorkSans py-10">
-            <div className="flex flex-col w-full lg:w-10/12 gap-2 lg:gap-6">
+            <div className="flex flex-col w-full lg:w-10/12 gap-20">
             <Article
                 name={
                     "Collecter et analyser vos données agricoles grâce à nos kits"
@@ -12,7 +12,7 @@ const InfosPart = () => {
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
                 }
-                price={""}
+                position={"left"}
                 description={"Utiliser nos plateforme d'analyse , de traitement et de visualusation de données agricoles"}
             />
             <Article
@@ -22,7 +22,7 @@ const InfosPart = () => {
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
                 }
-                price={""}
+                position={"rigth"}
                 description={"Dispositif de collete de données de sole et d'environnement"}
             />
             <Article
@@ -32,7 +32,7 @@ const InfosPart = () => {
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
                 }
-                price={""}
+                position={"left"}
                 description={"Dispositif de collete de données de sole et d'environnement"}
             />
             <Article
@@ -42,7 +42,7 @@ const InfosPart = () => {
                 image={
                     process.env.PUBLIC_URL + "/assets/image1.png"
                 }
-                price={""}
+                position={"rigth"}
                 description={"Dispositif de collete de données de sole et d'environnement"}
             />
             </div>
