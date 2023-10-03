@@ -40,7 +40,7 @@ const InfosPart = () => {
                 />
                 <Article
                     name={
-                        "Recommandations de méthodes agricole durable pour vos exploitations."
+                        "Services de recommandations de méthodes agricole durable pour vos exploitations."
                     }
                     image={
                         process.env.PUBLIC_URL + "/assets/image1.png"

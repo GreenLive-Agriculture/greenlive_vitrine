@@ -28,7 +28,7 @@ const FamousCustomer = () => {
                                         process.env.PUBLIC_URL +
                                         `/assets/famousCustomers/fc${i+1}.JPEG`
                                     }
-                                    className="object-contain"
+                                    className="object-contain w-30 h-20"
                                 />
                             );
                         })}
