@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HiMiniBarsArrowUp, HiMiniBarsArrowDown } from "react-icons/hi2";
 
+
 const NavBar = ({ putNavToTop }) => {
     const [showNavigation, setShowNavigation] = useState(false);
 
@@ -13,13 +14,16 @@ const NavBar = ({ putNavToTop }) => {
             />
             <ul className="hidden md:flex flex-row items-center gap-6">
                 <li>
-                    <a href="/">Solutions</a>
+                    <a href="#solutions">Solutions</a>
                 </li>
                 <li>
-                    <a href="/">Pricing</a>
+                    <a href="#produits">Produits</a>
                 </li>
                 <li>
-                    <a href="/">Resources</a>
+                    <a href="#acteurs">Acteurs</a>
+                </li>
+                <li>
+                 <a href="#articles">Articles</a>
                 </li>
                 <li>
                     <a href="/login">Sign up</a>

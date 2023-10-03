@@ -4,7 +4,7 @@ import Article from "./article";
 const InfosPart = () => {
     return (
         <div className="flex flex-col w-full items-center font-WorkSans py-10 gap-6">
-            <div className="flex flex-col w-full lg:w-10/12 text-center text-4xl font-bold p-6">
+            <div className="flex flex-col w-full lg:w-10/12 text-center text-4xl font-bold p-6" id="produits">
                 Services et produits
             </div>
             <div className="flex flex-col w-full lg:w-10/12 gap-20">

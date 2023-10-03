@@ -1,11 +1,11 @@
 import React from "react";
 
 const FamousCustomer = () => {
-    for (let index = 1; index <= 5; index++) {
+    for (let index = 1; index <= 4; index++) {
         <img
             src={
                 process.env.PUBLIC_URL +
-                `/assets/famousCustomers/fc${index}.png`
+                `/assets/famousCustomers/fc${index}.JPEG`
             }
             className="h-10 object-contain"
             alt="stat_img"
@@ -16,7 +16,7 @@ const FamousCustomer = () => {
         <div className="flex p-6 justify-center font-WorkSans pt-12">
             <div className="flex flex-col w-full lg:w-10/12 justify-center items-center gap-6">
                 <h1 className="text-4xl text-center font-bold">
-                    Ceux qui nous soutiennent
+                    Ceux qui nous accompagnent
                 </h1>
                 <div className="flex justify-between overflow-x-hidden w-full">
                     <div className="flex w-full justify-between overflow-x-auto [&>div]:flex-shrink-0 gap-8">

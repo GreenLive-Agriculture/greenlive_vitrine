@@ -3,7 +3,7 @@ import BlogItem from "../widgets/blogItem";
 
 const BlogPart = () => {
     return (
-        <div className="flex p-6 justify-center font-WorkSans pt-12">
+        <div className="flex p-6 justify-center font-WorkSans pt-12" id="articles">
             <div className="flex flex-col w-full lg:w-10/12 justify-center items-center gap-4">
                 <h1 className="text-4xl text-center font-bold">
                     Articles

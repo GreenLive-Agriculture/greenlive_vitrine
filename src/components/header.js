@@ -29,18 +29,17 @@ const Header = ({ positionTop }) => {
                 <NavBar putNavToTop={putNavToTop} />
                 <div className="w-full lg:w-8/12 flex flex-grow flex-col justify-center items-center text-white text-center gap-8 px-4">
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold">
-                        Cultivez votre avenir avec précision et durabilité!
+                        Cultivez avec précision et durabilité!
                     </h1>
                     <p className="text-sm">
-                        Libérez le potentiel de votre terre de la durabilité à
-                        chaque action avec une précision qui nourrit
+                        Ayez de bon rendements grâce a des techniques durables et l'utilisation exacte de vos intrants
                     </p>
                     <div className="flex flex-col-reverse md:flex-row gap-4 items-center justify-center mt-4">
                         <button className="px-6 py-3 bg-primary rounded-md">
                             Découvrez nous
                         </button>
                         <p className="underline underline-offset-2">
-                            Hotline: (+237)696-865-548
+                            Contact: (+237)696-865-548
                         </p>
                     </div>
                 </div>

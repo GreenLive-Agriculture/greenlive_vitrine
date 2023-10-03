@@ -1,11 +1,12 @@
 import React from "react";
 import Objectif from "../widgets/objectif";
+import ScrollView from "../widgets/scrollView";
 
 const Statistic = () => {
     return (
         <div className="flex flex-col w-full items-center font-WorkSans py-10 gap-6">
             <div className="flex flex-col w-full lg:w-10/12 text-center text-4xl font-bold p-6">
-                Objectifs à atteindre
+                Perspectives
             </div>
             <div className="relative w-full h-[30rem] flex">
                 <img

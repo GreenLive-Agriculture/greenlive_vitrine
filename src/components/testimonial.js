@@ -5,8 +5,8 @@ const Testimonial = () => {
     return (
         <div className="flex p-6 justify-center font-WorkSans pt-12">
             <div className="flex flex-col w-full lg:w-10/12 justify-center items-center gap-4">
-                <h1 className="text-4xl text-center font-bold">
-                    Ceux qui nous accompagnent
+                <h1 className="text-4xl text-center font-bold" id="acteurs">
+                    Ceux qui croient en nous
                 </h1>
                 <p className="w-4/6 text-center">
                     Lisez quelques commentaires impressionnants des acteurs du secteur
@@ -16,7 +16,7 @@ const Testimonial = () => {
                     <div className="flex w-full overflow-x-auto justify-between [&>div]:flex-shrink-0 gap-4">
                         <PersonalTestimonial
                             testimonial={
-                                "Depuis que j'ai su les perspectives de ce projet qui recomande les techniques d'agriculture de précision,innovantes , permettront de suivre avec précision les plantations et aussi donner les recommandations durables."
+                                "Depuis que j'ai su les perspectives de ce projet qui recomande les techniques d'agriculture de précision et innovantes qui permettront de suivre avec précision les plantations et aussi donner les recommandations durables."
                             }
                             userImage={
                                 process.env.PUBLIC_URL + "/assets/image1.png"
