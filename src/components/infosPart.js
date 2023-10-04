@@ -7,7 +7,7 @@ const InfosPart = () => {
             <div className="flex flex-col w-full lg:w-10/12 text-center text-4xl font-bold p-6" id="produits">
                 Services et produits
             </div>
-            <div className="flex flex-col w-full lg:w-10/12 gap-20">
+            <div className="flex flex-col w-full lg:w-10/12 space-y-20 space-x-10 gap-150">
                 <Article
                     name={
                         "Kits de collecte et d'analyse"
@@ -16,7 +16,7 @@ const InfosPart = () => {
                         process.env.PUBLIC_URL + "/assets/image1.png"
                     }
                     position={"left"}
-                    description={"Collecter et analyser vos données agricoles grâce à nos kits.Collecter des données précises sur les cultures, telles que la température, l'humidité, la qualité du sol, etc. Les données collectées sont ensuite analysées pour aider les agriculteurs à prendre des décisions éclairées sur la gestion de leurs cultures."}
+                    description={"Collecter et analyser vos données précises sur les cultures, telles que la température, l'humidité, la qualité du sol, etc. Les données collectées sont ensuite analysées pour aider les agriculteurs à prendre des décisions éclairées sur la gestion de leurs cultures."}
                 />
                 <Article
                     name={

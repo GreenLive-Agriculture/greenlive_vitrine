@@ -9,7 +9,7 @@ const Article = ({ image, name, description, position }) => {
       <div className={`w-full lg:w-1/2 h-64 ${imagePosition}`}>
         <img
           src={image}
-          className="w-full h-60 object-cover rounded-lg"
+          className="w-full h-60 object-cover rounded-lg mx-auto my-4"
           alt="Article"
         />
       </div>
