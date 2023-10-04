@@ -29,6 +29,7 @@ const FamousCustomer = () => {
                                         `/assets/famousCustomers/fc${i+1}.JPEG`
                                     }
                                     className="object-contain w-30 h-20"
+                                    alt="stat_img"
                                 />
                             );
                         })}

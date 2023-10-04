@@ -55,13 +55,16 @@ const NavBar = ({ putNavToTop }) => {
                 </div>
                 <ul className="flex flex-col items-center text-2xl font-bold">
                     <li className="px-8 py-4 border-t-2 w-full text-center">
-                        <a href="/">Solutions</a>
+                        <a href="#solutions">Solutions</a>
                     </li>
                     <li className="px-8 py-4 border-t-2 w-full text-center">
-                        <a href="/">Pricing</a>
+                        <a href="#produits">Produits</a>
                     </li>
                     <li className="px-8 py-4 border-t-2 w-full text-center">
-                        <a href="/">Resources</a>
+                        <a href="#acteurs">Acteurs</a>
+                    </li>
+                    <li className="px-8 py-4 border-t-2 w-full text-center">
+                        <a href="#articles">Articles</a>
                     </li>
                     <li className="px-8 py-4 border-y-2 w-full text-center">
                         <a href="/">Sign up</a>
