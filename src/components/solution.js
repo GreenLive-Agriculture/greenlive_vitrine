@@ -25,7 +25,7 @@ const Solution = () => {
                     <BaseSolution
                         icon={<TbTargetArrow size={50} />}
                         title="Gestion des ressources"
-                        description="Technologies et pratiques agricoles pour une utilisation plus efficiente des ressources naturelles (eau, engrais, pesticide)."
+                        description="Technologies et pratiques agricoles pour une utilisation plus efficiente des ressources naturelles (eau, engrais, pesticide) grâce aux actionneurs."
                     />
                     <BaseSolution
                         icon={<GiCornerFlag size={50} />}
