@@ -13,7 +13,7 @@ const InfosPart = () => {
                         "Kits de collecte et d'analyse"
                     }
                     image={
-                        process.env.PUBLIC_URL + "/assets/image1.png"
+                        process.env.PUBLIC_URL + "/assets/kits/"
                     }
                     position={"left"}
                     description={"Collecter et analyser vos données précises sur les cultures, telles que la température, l'humidité, la qualité du sol, etc. Les données collectées sont ensuite analysées pour aider les agriculteurs à prendre des décisions éclairées sur la gestion de leurs cultures."}
@@ -23,7 +23,7 @@ const InfosPart = () => {
                         "Plateforme de visualisation , d'analyse et de traitement de données agricoles poussées"
                     }
                     image={
-                        process.env.PUBLIC_URL + "/assets/image1.png"
+                        process.env.PUBLIC_URL + "/assets/kits/"
                     }
                     position={"rigth"}
                     description={"Utiliser nos plateformes d'analyse , de traitement et de visualusation à temps réel de vos données agricoles.Cette plateforme permet d'analyser les données collectées par les kits de collecte et d'analyse pour optimiser la production agricole. Les agriculteurs peuvent ainsi prendre des décisions éclairées sur la gestion de leurs cultures, telles que l'utilisation de fertilisants, l'irrigation, etc."}
@@ -33,7 +33,7 @@ const InfosPart = () => {
                         "Kit de distribution exact d'intrants"
                     }
                     image={
-                        process.env.PUBLIC_URL + "/assets/image1.png"
+                        process.env.PUBLIC_URL + "/assets/kits/"
                     }
                     position={"left"}
                     description={"Améliorer votre productivité en distribuant de manière précise vos intrants tout en réduisant l'impact environnemental.Ce kit permet de distribuer avec précision les intrants tels que les engrais, l'eau et les pesticides. Les agriculteurs peuvent ainsi économiser de l'argent en utilisant la quantité exacte d'intrants nécessaire pour leurs cultures."}
@@ -43,7 +43,7 @@ const InfosPart = () => {
                         "Services de recommandations de méthodes agricole durable pour vos exploitations."
                     }
                     image={
-                        process.env.PUBLIC_URL + "/assets/image1.png"
+                        process.env.PUBLIC_URL + "/assets/kits/"
                     }
                     position={"rigth"}
                     description={"Recevoir des recommandations personalisées sur des méthodes agricoles durables.Cette fonctionnalité fournit des recommandations pour des méthodes agricoles durables, telles que la rotation des cultures, l'utilisation de cultures de couverture, etc. Les agriculteurs peuvent ainsi améliorer la santé de leurs sols et réduire leur impact environnemental."}
