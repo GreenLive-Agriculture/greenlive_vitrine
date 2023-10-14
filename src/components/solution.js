@@ -10,7 +10,7 @@ const Solution = () => {
         <div className="flex p-6 justify-center bg-secondary font-WorkSans pt-12">
             <div className="flex flex-col w-full lg:w-10/12 justify-center items-center gap-6">
                 <p className="text-4xl text-center font-bold" id="solutions">
-                    Notre produit, trois solutions
+                    Nos solutions
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 justify-between items-center gap-77">
                     <BaseSolution
