@@ -5,7 +5,7 @@ const FamousCustomer = () => {
         <img
             src={
                 process.env.PUBLIC_URL +
-                `/assets/famousCustomers/fc${index}.PNG`
+                `/assets/famousCustomers/fc${index}.png`
             }
             className="h-10 object-contain"
             alt="stat_img"
@@ -26,7 +26,7 @@ const FamousCustomer = () => {
                                     key={i}
                                     src={
                                         process.env.PUBLIC_URL +
-                                        `/assets/famousCustomers/fc${i+1}.PNG`
+                                        `/assets/famousCustomers/fc${i+1}.png`
                                     }
                                     className="object-contain w-30 h-20"
                                     alt="stat_img"

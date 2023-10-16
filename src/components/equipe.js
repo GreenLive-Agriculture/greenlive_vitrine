@@ -32,14 +32,14 @@ const Equipe = () => {
                      solutions abordables et efficaces pour les agriculteurs de toutes tailles.
             </div>
             <div  style={{ display: 'flex', justifyContent: 'space-between' ,gap:'50px' ,  alignItems: 'center'}}>
-                <Person name="NGOUADJEU Hilary" image={process.env.PUBLIC_URL +`/assets/equipe/hilary.PNG`} profit="Mathématicienne / Ingénieure SI" socialLinks={socialLinks} />
-                <Person name="Eitel MBANGO" image={process.env.PUBLIC_URL +`/assets/equipe/eitel.PNG`} profit="Mecatronicien" socialLinks={socialLinks} />
-                <Person name="NYEMB Kévin" image={process.env.PUBLIC_URL +`/assets/equipe/kevin.PNG`} profit="Data Scientist" socialLinks={socialLinks} />
+                <Person name="NGOUADJEU Hilary" image={process.env.PUBLIC_URL +`/assets/equipe/hilary.png`} profit="Mathématicienne / Ingénieure SI" socialLinks={socialLinks} />
+                <Person name="Eitel MBANGO" image={process.env.PUBLIC_URL +`/assets/equipe/eitel.png`} profit="Mecatronicien" socialLinks={socialLinks} />
+                <Person name="NYEMB Kévin" image={process.env.PUBLIC_URL +`/assets/equipe/kevin.png`} profit="Data Scientist" socialLinks={socialLinks} />
                 <Person name="AL-VELDA DE MBAYEN" image="john-doe.jpg" profit="Data Scientist" socialLinks={socialLinks} />
             </div>
             <div  style={{ display: 'flex', justifyContent: 'space-between' ,gap:'50px' ,  alignItems: 'center'}}>
-                <Person name="Ledoux KOUAM" image={process.env.PUBLIC_URL +`/assets/equipe/ledoux.PNG`} profit="Ingénieur Telecom et Cloud" socialLinks={socialLinks} />
-                <Person name="WAYOU Wilfried" image={process.env.PUBLIC_URL +`/assets/equipe/wilfried.PNG`} profit="Développeur Web et mobile" socialLinks={socialLinks} />
+                <Person name="Ledoux KOUAM" image={process.env.PUBLIC_URL +`/assets/equipe/ledoux.png`} profit="Ingénieur Telecom et Cloud" socialLinks={socialLinks} />
+                <Person name="WAYOU Wilfried" image={process.env.PUBLIC_URL +`/assets/equipe/wilfried.png`} profit="Développeur Web et mobile" socialLinks={socialLinks} />
             </div>
         </div>
     );
