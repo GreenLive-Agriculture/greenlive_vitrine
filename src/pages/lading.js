@@ -8,6 +8,7 @@ import FamousCustomer from "../components/famousCustomer";
 import BlogPart from "../components/blogsPart";
 import InfoContact from "../components/infoContact";
 import Footer from "../components/footer";
+import Equipe from "../components/equipe";
 
 const Landing = () => {
     const currentRef = useRef(null);
@@ -53,6 +54,9 @@ const Landing = () => {
                 
                 {/* Blogs part */}
                 <BlogPart />
+
+                { /*Equip part*/}
+                <Equipe />
 
                 {/* Info Contact */}
                 <InfoContact />
