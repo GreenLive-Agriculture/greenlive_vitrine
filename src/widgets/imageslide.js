@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function ImageSlider() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -16,16 +16,24 @@ function ImageSlider() {
     setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
   }
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNextImage();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center" style={{ textAlign: 'center' , display:'inline-block', verticalAlign:'middle'}} >
       <div className="grid grid-cols-5 gap-4">
         {images.map((image,index) => (
           <img
-          alt={`Image ${index + 1}`}
-          src={image}
-          className={`w-full h-64 object-cover transition-opacity duration-500 ${
-            index === currentImage ? 'opacity-100' : 'opacity-0'
-          }`}
+            key={index}
+            alt={`Image ${index + 1}`}
+            src={image}
+            className={`w-full h-60 object-cover rounded-lg mx-auto my-4 transition-opacity duration-500 ${
+              index === currentImage ? 'opacity-100' : 'opacity-0 hidden'
+            }`}
           />
         ))}
       </div>
