@@ -8,9 +8,12 @@ const images_kit = [
 
 const images_plateforme = 
 [
-    process.env.PUBLIC_URL +'/assets/kits/image1.jpeg',
-    process.env.PUBLIC_URL +'/assets/kits/image2.png',
-    process.env.PUBLIC_URL +'/assets/kits/image3.png'
+    process.env.PUBLIC_URL +'/assets/platform/image1.png',
+    process.env.PUBLIC_URL +'/assets/platform/image2.png',
+    process.env.PUBLIC_URL +'/assets/platform/image3.png',
+    process.env.PUBLIC_URL +'/assets/platform/image4.png',
+    process.env.PUBLIC_URL +'/assets/platform/image5.png',
+    process.env.PUBLIC_URL +'/assets/platform/image6.jpeg'
 ];
 
 const images_dist_intrants = [
@@ -37,7 +40,7 @@ const InfosPart = () => {
                     name={
                         "Plateforme de visualisation , d'analyse et de traitement de données agricoles poussées"
                     }
-                    images={images_kit}
+                    images={images_plateforme}
 
                     position={"rigth"}
                     description={"Utiliser nos plateformes d'analyse , de traitement et de visualusation à temps réel de vos données agricoles.Cette plateforme permet d'analyser les données collectées par les kits de collecte et d'analyse pour optimiser la production agricole. Les agriculteurs peuvent ainsi prendre des décisions éclairées sur la gestion de leurs cultures, telles que l'utilisation de fertilisants, l'irrigation, etc."}
