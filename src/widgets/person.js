@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaFacebookF, FaTwitter, FaLinkedin} from "react-icons/fa6"
 
 function Person({ name, image, profit, socialLinks }) {
   return (
@@ -9,11 +10,15 @@ function Person({ name, image, profit, socialLinks }) {
       <h2 className="text-black text-xl shadow-sm">{name}</h2>
       <p className="font-bold text-green-500 shadow-sm">{profit}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 justify-center items-center">
-        {socialLinks.map(link => (
-          <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" style={{ margin: '10px' }}>
-            <img src={link.icon} alt={link.name} style={{ width: '30px', height: '30px' }} />
-          </a>
-        ))}
+        <button className="w-8 h-8 flex justify-center items-center border border-white rounded-full hover:bg-primary">
+                            <FaFacebookF size={12} />
+                        </button>
+                        <button className="w-8 h-8 flex justify-center items-center border border-white rounded-full hover:bg-primary">
+                            <FaTwitter size={12} />
+                        </button>
+                        <button className="w-8 h-8 flex justify-center items-center border border-white rounded-full hover:bg-primary">
+                            <FaLinkedin size={12} />
+                        </button>
       </div>
     </div>
   );

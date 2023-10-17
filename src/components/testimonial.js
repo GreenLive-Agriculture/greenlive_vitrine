@@ -6,7 +6,7 @@ const Testimonial = () => {
         <div className="flex p-6 justify-center font-WorkSans pt-12">
             <div className="flex flex-col w-full lg:w-10/12 justify-center items-center gap-4">
                 <h1 className="text-4xl text-center font-bold" id="acteurs">
-                    Ceux qui croient en nous
+                    Ils croient en nous
                 </h1>
                 <p className="w-4/6 text-center">
                     Lisez quelques commentaires impressionnants des acteurs du secteur
@@ -16,33 +16,33 @@ const Testimonial = () => {
                     <div className="flex w-full overflow-x-auto justify-between [&>div]:flex-shrink-0 gap-4">
                         <PersonalTestimonial
                             testimonial={
-                                "Depuis que j'ai su les perspectives de ce projet qui recomande les techniques d'agriculture de précision et innovantes qui permettront de suivre avec précision les plantations et aussi donner les recommandations durables."
+                                "GreenLive a révolutionné ma façon de cultiver. Grâce à l'AIoT, je peux surveiller en temps réel les conditions de mon champ, ajuster l'irrigation et contrôler la qualité du sol. Mes rendements ont augmenté de manière significative et je peux désormais planifier mes cultures avec précision. Je suis reconnaissante envers l'équipe GreenLive pour leur solution innovante ! 💪🌿"
                             }
                             userImage={
                                 process.env.PUBLIC_URL + "/assets/image1.png"
                             }
                             userName={"Ledoux KOUAM"}
-                            userProfession={"Agri-tech Camerounais"}
+                            userProfession={"Agri-tech Camerounais passionné"}
                         />
                         <PersonalTestimonial
                             testimonial={
-                                "Grâce à cette start-up spécialisée dans l'agriculture de précision, les agriculteurs locaux peuvent gagner du temps et de l'argent tout en améliorant leurs performances agricoles."
+                                "GreenLive m'a permis de booster mon entreprise agricole au Cameroun. L'agriculture de précision basée sur l'IA et l'IoT a facilité la gestion de mes cultures à grande échelle. J'obtiens des données précises sur la santé des plantes, les niveaux d'humidité et les besoins en nutriments. Cela me permet de prendre des décisions éclairées pour optimiser mes rendements et économiser des ressources. GreenLive est un véritable partenaire pour la réussite de mon activité ! 🌾📈"
                             }
                             userImage={
                                 process.env.PUBLIC_URL + "/assets/image1.png"
                             }
                             userName={"NKENG"}
-                            userProfession={"agriculteur"}
+                            userProfession={"Entrepreneur agricole"}
                         />
                         <PersonalTestimonial
                             testimonial={
-                                "Je suis un agriculteur qui utilise maintenant des technologies telles que les drones et les satellites pour analyser les terres, ce qui a entraîné des changements importants dans ma pratique agricole."
+                                "En tant qu'experte agronome, je suis impressionnée par les avancées de GreenLive dans le domaine de l'agriculture de précision. Leur utilisation de l'AIoT offre aux agriculteurs camerounais la possibilité d'accéder à des technologies de pointe et d'améliorer considérablement leurs pratiques agricoles. Je soutiens pleinement cette initiative qui contribue à la modernisation et à la durabilité de l'agriculture au Cameroun. Bravo à toute l'équipe de GreenLive ! 🌍🌿"
                             }
                             userImage={
                                 process.env.PUBLIC_URL + "/assets/image1.png"
                             }
                             userName={"Jeanne"}
-                            userProfession={"agricultrice"}
+                            userProfession={" Experte agronome"}
                         />
                     </div>
                 </div>

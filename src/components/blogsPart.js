@@ -1,6 +1,10 @@
 import React from "react";
 import BlogItem from "../widgets/blogItem";
 
+
+
+const blog_link = "sgdfdbvfgbfg";
+
 const BlogPart = () => {
     return (
         <div className="flex p-6 justify-center font-WorkSans pt-12" id="articles">
@@ -11,6 +15,7 @@ const BlogPart = () => {
                 <div className="flex justify-between overflow-x-hidden w-full">
                     <div className="flex w-full overflow-x-auto justify-between [&>div]:flex-shrink-0 gap-4">
                         <BlogItem
+                            blogLink={blog_link}
                             blogImage={
                                 process.env.PUBLIC_URL +
                                 `/assets/blogs/blog1.png`
@@ -19,6 +24,7 @@ const BlogPart = () => {
                             blogDescription={"Cet article met en évidence comment de plus en plus d'agriculteurs au Cameroun adoptent des pratiques d'agriculture de précision"}
                         />
                         <BlogItem
+                            blogLink={blog_link}
                             blogImage={
                                 process.env.PUBLIC_URL +
                                 `/assets/blogs/blog2.png`
@@ -27,6 +33,7 @@ const BlogPart = () => {
                             blogDescription={" Cet article explore comment le secteur de l'éducation agricole au Cameroun intègre progressivement l'agriculture de précision dans ses programmes de formation."}
                         />
                         <BlogItem
+                            blogLink={blog_link}
                             blogImage={
                                 process.env.PUBLIC_URL +
                                 `/assets/blogs/blog3.png`
