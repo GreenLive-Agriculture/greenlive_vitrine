@@ -17,20 +17,16 @@ const BlogItem = ({ blogImage, blogTitle, blogDescription, blogLink, articleText
   if (isModalOpen) {
     return (
         <div className="modal-outer-container">
-        <div className="modal-inner-container">
             <button className="modal-close-button" onClick={closeModal}>
             Fermer
           </button>
-          <div className="modal-image">
+        <div className="modal-inner-container"><div className="modal-image">
             <img src={blogImage} alt="Image" />
           </div>
           <div className="modal-content">
             <h2 className="text-xl font-semibold">{blogTitle}</h2>
             <p>{articleText}</p>
           </div>
-          <button className="modal-close-button" onClick={closeModal}>
-            Fermer
-          </button>
         </div>
       </div>
     );
