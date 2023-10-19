@@ -1,6 +1,7 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useEffect, useState } from "react";
 import ImageSlider from "../widgets/imageslide"
+
+import { useMediaQuery } from 'react-responsive';
 
 const Article = ({ images, name, description, position }) => {
   const imagePosition = position === "left" ? "order-1" : "order-2";
@@ -25,8 +26,8 @@ const Article = ({ images, name, description, position }) => {
 
 
   return (
-    <div className="w-full mx-4 my-2 bg-white rounded-lg shadow-lg flex flex-col lg:flex-row">
-      <div className={`w-full lg:w-1/2 h-84 ${imagePosition}`}>
+    <div className="gre-aeticle my-2 bg-white rounded-lg shadow-lg flex flex-col lg:flex-row" style={{ minWidth: '200px' }} >
+      <div className={`relative w-full lg:w-1/2 h-84 ${imagePosition}`}>
           {images.map((image,index) => (
           <img
             key={index}
@@ -37,6 +38,10 @@ const Article = ({ images, name, description, position }) => {
             }`}
           />
         ))}
+        <div>
+        <button onClick={handleNextImage} className="absolute bottom-0 left-1/2 transform -translate-x-1/2 py-2 px-4 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+    </button>
+        </div>
       </div>
       <div className={`w-full lg:w-1/2 p-6 ${textPosition}`}>
         <h2 className="text-2xl font-bold mb-4">{name}</h2>

@@ -11,8 +11,8 @@ const images_plateforme =
     process.env.PUBLIC_URL +'/assets/platform/image1.png',
     process.env.PUBLIC_URL +'/assets/platform/image2.png',
     process.env.PUBLIC_URL +'/assets/platform/image3.png',
-    process.env.PUBLIC_URL +'/assets/platform/image4.png',
-    process.env.PUBLIC_URL +'/assets/platform/image5.png',
+    process.env.PUBLIC_URL +'/assets/platform/image4.jpeg',
+    process.env.PUBLIC_URL +'/assets/platform/image5.jpeg',
     process.env.PUBLIC_URL +'/assets/platform/image6.jpeg'
 ];
 
@@ -22,7 +22,7 @@ const images_dist_intrants = [
 
 const InfosPart = () => {
     return (
-        <div className="flex flex-col w-full items-center font-WorkSans py-10 gap-6">
+        <div className="container mx-auto flex flex-col w-full flex-wrap justify-center items-center font-WorkSans py-10 gap-6">
             <div className="flex flex-col w-full lg:w-10/12 text-center text-4xl font-bold p-6" id="produits">
                 Services et produits
             </div>
