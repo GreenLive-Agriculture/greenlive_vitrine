@@ -18,6 +18,9 @@ const BlogItem = ({ blogImage, blogTitle, blogDescription, blogLink, articleText
     return (
         <div className="modal-outer-container">
         <div className="modal-inner-container">
+            <button className="modal-close-button" onClick={closeModal}>
+            Fermer
+          </button>
           <div className="modal-image">
             <img src={blogImage} alt="Image" />
           </div>
